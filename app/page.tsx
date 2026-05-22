@@ -54,7 +54,7 @@ export default function Home() {
         ) : (
           <div className="flex-1 flex items-center justify-center py-10 bg-zinc-100">
             {/* Mobile device frame simulation */}
-            <div className="relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[8px] rounded-[2.5rem] h-[800px] w-[375px] shadow-2xl overflow-hidden ring-1 ring-black/5 transform">
+            <div className="relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[8px] rounded-[2.5rem] h-[800px] w-[375px] shadow-2xl overflow-hidden ring-1 ring-black/5 scale-100">
               <div className="w-[148px] h-[18px] bg-gray-800 top-0 rounded-b-[1rem] left-1/2 -translate-x-1/2 absolute z-20"></div>
               <div className="h-[32px] w-[3px] bg-gray-800 absolute -left-[11px] top-[72px] rounded-l-lg"></div>
               <div className="h-[46px] w-[3px] bg-gray-800 absolute -left-[11px] top-[124px] rounded-l-lg"></div>
